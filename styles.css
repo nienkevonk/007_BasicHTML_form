@@ -81,11 +81,14 @@ a:link /*unvisited link*/ {
     margin:5px;
     display: inline;
 }
+.textfield{
+    font-size:10px;
+}
 @media screen and (min-width: 1024px) {
 body{
     background-color:mintcream;
     color:sienna;
-    font-size:x-large;
     line-height:30px;
+    font-size:x-small;
 }
 }

@@ -1,3 +1,6 @@
+<!DOCTYPE html>
+<html>
+
 <head>
     <title>Contact</title>
     <link rel="stylesheet" type="text/css" href="styles.css">
@@ -18,11 +21,11 @@
     </nav>
     <main class="box2">
         <p class="titlecontact">Neem contact op:</p>
-        <form name="contact" data-netlify="true">
-            <input type="text" value="Naam" name="name" />
-            <input type="email" value="E-mail" name="email" />
-            <input type="text" value="Jouw bericht hier" name="text" />
-            <input type="submit" value="Submit" name="submit" />
+        <form name="contact" method="POST" data-netlify="true">
+            <p><input type="text" value="Naam" name="name" /></p>
+            <p><input type="email" value="E-mail" name="email" /></p>
+            <p class="textfield"><label>lang bericht met tekst: <textarea name="message"></textarea></p></label>
+            <p><input type="submit" value="Submit" name="submit" /></p>
         </form>
     </main>
     <footer class="black-border">
